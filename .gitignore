@@ -31,4 +31,68 @@
 *.out
 *.app
 
+# Windows 系統檔案
 desktop.ini
+
+
+#  Visual Studio / Windows 平台特化 Ignore
+
+
+# VS 編輯器設定與快取
+.vs/
+*.VC.db
+*.VC.opendb
+*.suo
+*.user
+*.cache
+*.log
+
+# 編譯產物與目錄
+Debug/
+Release/
+x64/
+ipch/
+*.pdb
+*.ilk
+*.tlog
+*.idb
+
+# VS 特殊配置檔案（可選忽略）
+*.vcxproj.filters
+
+
+#  CMake / 外部建構系統
+
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build/
+out/
+
+#  VSCode (可選)
+.vscode/
+
+#  Git 忽略快取、備份與暫存檔案
+*~
+*.bak
+*.swp
+*.tmp
+.DS_Store
+Thumbs.db
+
+# 保留這些原始碼資料夾
+!src/
+!egcode/
+!NLCP/
+!NLCP/include/
+!NLCP/problem/
+!NLCP/template/
+!NLCP/testdata/
+!LogitectixCore/
+!docs/
+
+# 忽略資料夾中的執行檔
+src/*.exe
+egcode/*.exe
+NLCP/problems/*.exe
