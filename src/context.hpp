@@ -1,4 +1,3 @@
-// src/context.hpp
 #pragma once
 #include "stage.hpp"
 struct Context {
