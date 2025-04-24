@@ -3,6 +3,6 @@
 #include "stage.hpp"
 struct Context {
     Stage stage = Stage::INPUT;
-    // 之後再加 data/answer 等
+    // 先僅有狀態
     void dispatch();
 };
