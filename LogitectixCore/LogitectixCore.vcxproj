@@ -19,7 +19,21 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\src\context.cpp" />
+    <ClCompile Include="..\src\input.cpp" />
     <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\output.cpp" />
+    <ClCompile Include="..\src\solve.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\context.hpp" />
+    <ClInclude Include="..\src\input.hpp" />
+    <ClInclude Include="..\src\output.hpp" />
+    <ClInclude Include="..\src\solve.hpp" />
+    <ClInclude Include="..\src\stage.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\src\README.md" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
