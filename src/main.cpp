@@ -1,6 +1,7 @@
-#include <iostream>
-
+// src/main.cpp
+#include "context.hpp"
 int main() {
-    std::cout << "Visual Studio C++ 模組啟用成功！\n";
+    Context ctx;
+    ctx.dispatch();
     return 0;
 }
