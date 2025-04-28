@@ -2,5 +2,5 @@
 #include "context.hpp"
 
 void solve(Context& ctx) {
-		// �ثe���Ź�@�A�i���ɤ��e
+		// 目前為空實作，可日後補內容
 }

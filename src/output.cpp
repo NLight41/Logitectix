@@ -1,7 +1,7 @@
 #include "output.hpp"
 #include "context.hpp"
-#include <iostream> // ¦p»İ¿é¥X
+#include <iostream> // å¦‚éœ€è¼¸å‡º
 
 void write_output(Context& ctx) {
-	// ¥Ø«e¬°ªÅ¹ê§@¡A¥i¤é«á¸É¤º®e
+	// ç›®å‰ç‚ºç©ºå¯¦ä½œï¼Œå¯æ—¥å¾Œè£œå…§å®¹
 }
